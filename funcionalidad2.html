@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+        min-height: 100vh;
+      }
+
+      .carousel {
+        width: 1200px;
+        height: 1000px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+      }
+
+      .carousel-content {
+        display: flex;
+        width: 300%;
+        animation: carousel-scroll 50s infinite;
+      }
+
+      .carousel-item {
+        flex: 1 0 100%;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        font-size: 30px;
+      }
+
+      @keyframes carousel-scroll {
+        0% {
+          transform: translateX(0);
+        }
+        33% {
+          transform: translateX(-100%);
+        }
+        66% {
+          transform: translateX(-200%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="carousel-content">
+        <div class="carousel-item" style="background-color: #ff6347">
+          ¡UTP CIERRA POR FALTA DE AGUA!
+        </div>
+        <div class="carousel-item" style="background-color: #ff8c00">
+          PROFESOR DEJA A TODO EL SALÓN
+        </div>
+        <div class="carousel-item" style="background-color: #ffd700">
+          JHARON Y JEAN, PROM KINGS
+        </div>
+      </div>
+    </div>
+    <a href="home.html">HOME</a>
+  </body>
+</html>
