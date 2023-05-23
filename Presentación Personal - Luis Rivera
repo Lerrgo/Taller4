@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Presentación Personal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+    }
+
+    .section p {
+      line-height: 1.5;
+    }
+
+    .section img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .github-link {
+      display: inline-block;
+      margin-right: 10px;
+      color: #333;
+      background-color: #eee;
+      padding: 5px 10px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .github-link:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Presentación Personal</h1>
+  </header>
+
+  <div class="container">
+    <!-- Presentación con imagen -->
+    <section class="section">
+      <h2>Presentación</h2>
+      <img src="Luis Rivera.png" alt="Mi foto">
+      <p style="text-align: justify;">
+        Mi nombre es Luis Eduardo Rivera Rodríguez, tengo 21 años y obtuve mi Bachiller en Ciencias y Letras orientado a Informática y Contabilidad en el Instituto Italiano Enrico Fermi. 
+Escogí la carrera de Licenciatura en Ingeniería de Software en la UTP por mi afinidad con la lógica y mi pasión por las matemáticas, por lo que espero ser capaz de aplicar mis conocimientos matemáticos a lo largo de mi carrera. Soy de esas personas que se rodean enteramente por la música, pues paso horas enteras con un ambiente musical, ya sea escuchándola o sentándome con mi guitarra para pasar el rato. También me gusta la lectura, el dibujo, el ejercicio y los videojuegos. 
+ 
+En lo personal, me gusta retarme a mi mismo en el ámbito intelectual, buscando resolver ejercicios complicados o debatiendo sobre aspectos filosóficos con mis colegas; a su vez, me considero una persona capaz de adaptarse a las situaciones y de emplear la autocrítica como herramienta de crecimiento personal. Gracias a los trabajos en grupo, pude poner en práctica mis capacidades de liderazgo y considero que es un área en la que me gustaría enfatizar más mis esfuerzos a futuro. 
+
+      </p>
+    </section>
+
+    <!-- Proyectos realizados -->
+    <section class="section">
+      <h2>Proyectos realizados</h2>
+      <p>
+        <ul>
+            <li>
+                Tareas asignadas por la profesora de Calidad.
+            </li>
+            <li>
+                Eso es todo, soy muy flojo.
+            </li>
+        </ul>
+      </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="section">
+      <h2>Habilidades</h2>
+      <p>
+        <ul>
+            <li>
+                Impactrueno.
+            </li>
+            <li>
+                Tacleada.
+            </li>
+            <li>
+                Danza espada.
+            </li>
+            <li>
+                Látigo Sepa.
+            </li>
+            <li>
+                Patada giro.
+            </li>
+            <li>
+                Golpe cabeza.
+            </li>
+            <li>
+                Doble equipo.
+            </li>
+            <li>
+                Mordisco.
+            </li>
+            <li>
+                Ascuas.
+            </li>
+            <li>
+                Lanza llamas.
+            </li>
+            <li>
+                Danza Dragón.
+            </li>
+        </ul>
+      </p>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="section">
+      <h2>Experiencia</h2>
+      <p>
+        Mucha... lo juro.
+      </p>
+    </section>
+
+    <!-- Enlaces a proyectos en GitHub -->
+    <section class="section">
+      <h2>Enlaces a proyectos en GitHub</h2>
+      <a class="github-link" href="https://github.com/Lerrgo/Taller4.git">Proyecto 1</a>
+      <a class="github-link" href="https://clubrotaractdepanama.com">Proyecto 2</a>
